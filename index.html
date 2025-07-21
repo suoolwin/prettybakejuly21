@@ -1,0 +1,66 @@
+<!Doctype html>
+<html>
+    <head>
+        <title>Pretty Bake Home Shop</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link href="./css/style.css" rel="stylesheet" type="text/css"/>
+        <script src="https://cdn.tailwindcss.com"></script>
+        
+    </head>
+    <body>
+        <!-- Start Header Section  -->
+        <header>
+            <nav class="container-fluid mx-auto p-6 bg-yellow-800">
+
+                <div class="flex justify-between">
+
+                    <!-- icon  -->
+                    <div class="flex item-center">
+                        <img src="./img/icon.jpg" id="logo" class="w-16 mr-5" alt="favicon"/> <h2 class="uppercase p-4">Pretty Bake</h2>
+                    </div>
+
+                    <!-- menu  -->
+                    <div class="hidden uppercase items-center space-x-10 md:flex">
+                        <a href="javascript:void(0);" class="tracking-widest hover:text-white">Delivery</i></a>
+                        <a href="javascript:void(0);" class="tracking-widest hover:text-white">Pickup</a>
+                        <a href="javascript:void(0);" class="tracking-widest hover:text-white">Cakedesgin<i class="fas fa-caret-down px-2"></i></a>
+                        <a href="javascript:void(0);" class="tracking-widest hover:text-white">Cookies<i class="fas fa-caret-down px-2"></i></a>
+                        <a href="javascript:void(0);" class="tracking-widest hover:text-white">Browines</a>
+
+                        <div class="inline-block relative">
+                            <button id="contactmenu" class="bg-black text-white focus:outline-none py-1 px-3 contactbtn">Contact</button>
+
+                            <div id="" class="w-24 bg-white border-gray-300 mt-2 absolute hidden z-20">
+                                <a href="javascript:void(0);" class="block text-gray-700 hover:bg-gray-100 px-4 py-2">Email</a>
+                                <a href="javascript:void(0);" class="block text-gray-700 hover:bg-gray-100 px-4 py-2">Phone</a>
+                                <a href="javascript:void(0);" class="block text-gray-700 hover:bg-gray-100 px-4 py-2">Social</a>
+                                <a href="javascript:void(0);" class="block text-gray-700 hover:bg-gray-100 px-4 py-2">Address</a>
+                            </div>
+                        </div>
+                        
+                    </div>
+
+                    <!-- burger button  -->
+                    <button type="button" id="menu-btn" class="block md:hidden focus:outline-none burger-btn z-50">
+                        <span class="line1"></span>
+                        <span class="line2"></span>
+                        <span class="line3"></span>
+                    </button>
+
+                </div>
+
+                <!-- burger menu  -->
+                <div id="mobilemenu" class="w-full h-full hidden bg-slate-500 text-white uppercase tracking-widest fixed inset-0 z-20 px-6 py-20 opacity-90">
+                    <div class=""><a href="javascript:void(0);" class="hover:bg-blue-900">Delivery</a></div>
+                    <div class=""><a href="javascript:void(0);" class="hover:bg-blue-900">Pickup</a></div>
+                    <div class=""><a href="javascript:void(0);" class="hover:bg-blue-900">Cakedesgin</a></div>
+                    <div class=""><a href="javascript:void(0);" class="hover:bg-blue-900">Cookies</a></div>
+                    <div class=""><a href="javascript:void(0);" class="hover:bg-blue-900">Browines</a></div>
+                </div>
+
+            </nav>
+
+        </header>
+        <!-- End Header Section  -->
+    </body>
+</html>
