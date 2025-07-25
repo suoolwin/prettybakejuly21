@@ -10,6 +10,7 @@
     <body>
         <!-- Start Header Section  -->
         <header>
+            <img src="./img/bg1.jpg" alt="bg1" class="absolute inset-0 -z-10 size-full object-cover object-left md:object-center" />
             <nav class="container-fluid mx-auto p-6 bg-yellow-800">
 
                 <div class="flex justify-between">
@@ -28,9 +29,9 @@
                         <a href="javascript:void(0);" class="tracking-widest hover:text-white">Browines</a>
 
                         <div class="inline-block relative">
-                            <button id="contactmenu" class="bg-black text-white focus:outline-none py-1 px-3 contactbtn">Contact</button>
+                            <button id="contactbtn" class="bg-black text-white focus:outline-none py-1 px-3 contactbtn">Contact</button>
 
-                            <div id="" class="w-24 bg-white border-gray-300 mt-2 absolute hidden z-20">
+                            <div id="contactmenu" class="w-24 bg-white border-gray-300 mt-2 absolute hidden z-20">
                                 <a href="javascript:void(0);" class="block text-gray-700 hover:bg-gray-100 px-4 py-2">Email</a>
                                 <a href="javascript:void(0);" class="block text-gray-700 hover:bg-gray-100 px-4 py-2">Phone</a>
                                 <a href="javascript:void(0);" class="block text-gray-700 hover:bg-gray-100 px-4 py-2">Social</a>
@@ -41,11 +42,18 @@
                     </div>
 
                     <!-- burger button  -->
-                    <button type="button" id="menu-btn" class="block md:hidden focus:outline-none burger-btn z-50">
+                    <button type="button" id="menu-btn" class="block md:hidden focus:outline-none burger-btn z-50 my-4">
                         <span class="line1"></span>
                         <span class="line2"></span>
                         <span class="line3"></span>
                     </button>
+
+                    <!-- Start Banner -->
+                    <div class="text-white text-center banners">
+                        <h1 class="text-6xl text-yellow-700 uppercase bannerheaders fw-bold">Pretty Bake is a homemade bakery.</h1>
+                        <p class="text-xl lead bannerparagraphs">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                    </div>
+                    <!-- End Banner -->
 
                 </div>
 

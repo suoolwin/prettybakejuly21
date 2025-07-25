@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,300;1,300&display=swap');
+:root{
+
+
+    --primary-color:rgba(149, 107, 2, 1);
+    --secondary-color:rgba(189, 162, 92, 0.92);
+    /* --peach-color: #99ccff; */
+    --peach-color: rgba(183, 143, 115, 1);
+}
+
+*{
+    box-sizing: border-box;
+}
+
+/* Start Header Section  */
+
+
+/* start burger button  */
+.burger-btn{
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+
+    position: relative;
+
+    transition: all 0.25s;
+}
+
+.line1,.line2,.line3{
+    width: 24px;
+    height: 3px;
+    background-color: #000;
+
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.line2{
+    transform: translateY(7px);
+}
+
+.line3{
+    transform: translateY(14px);
+}
+
+.crossx .line1{
+    transform: rotate(45deg) translate(6px,6px);
+}
+
+.crossx .line2{
+    display: none;
+}
+
+.crossx .line3{
+    transform: rotate(-45deg) translate(-6px,6px);
+}
+
+.crossx:hover .line1,.crossx:hover .line3{
+    background-color: #fff;
+}
+
+
+/* end burger button  */
+
+/* Start Banner */
+.banners{
+    width: 100%;
+
+    position: absolute;
+    left: 0;
+    top: 50%;
+
+    transform: translateY(-50%);
+}
+
+.bannerheaders{
+    animation: bnanis 2s;
+}
+
+.bannerparagraphs{
+    animation: bnanis;
+    animation-duration: 2s;
+    animation-delay: 0.5s;
+
+    animation-fill-mode: backwards;
+}
+
+@keyframes bnanis{
+    from{
+        tansform: translateY(100px);
+        opacity: 0;
+    }
+
+    to{
+        tansform: translateY(0);
+        opacity: 1;
+    }
+}
+
+/* End Banner */
+
+/* End Header Section  */
